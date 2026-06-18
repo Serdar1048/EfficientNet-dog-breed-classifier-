@@ -25,3 +25,5 @@ Training Execution: The train function is called with the model, dataloaders, op
 5. Prediction
 transform_predict Function: This function takes a model, image path, class names, and optional transforms to make a prediction on a single image. It loads the image, applies the necessary transformations, moves it to the correct device, performs inference, and visualizes the image along with its predicted class and confidence score.
 Custom Image Prediction: The transform_predict function is demonstrated by making a prediction on a golden.jpeg image, showcasing the model's ability to classify an unseen image.
+
+For Dataset: https://www.kaggle.com/datasets/atilsamancioglu/imagewoof200
